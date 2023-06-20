@@ -1,0 +1,56 @@
+.about {
+	background: var(--primary-color);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+	
+}
+
+.aboutType {
+	position: absolute;
+	right: 9rem;
+	display: flex;
+	flex-direction: column;
+	font-size: 5rem;
+	line-height: 4rem;
+	text-transform: uppercase;
+	color: var(--secondary-color);
+	font-weight: 800;
+	opacity: 25%;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px;
+  pointer-events: none;
+  font-style: italic;
+}
+
+.aboutContent {
+	color: var(--secondary-color);
+	width: 70%;
+	line-height: 2rem;
+	font-style: italic;
+	justify-content: start;
+	align-items: start;
+}
+
+.aboutMore {
+	color: var(--secondary-color);
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.aboutContentText {
+  font-size: 2.1rem;
+  width: 100%;
+  font-weight: 800;
+}
+
+.outlineText {
+	-webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+  font-size: 2.1rem;
+	font-weight: 800;
+}

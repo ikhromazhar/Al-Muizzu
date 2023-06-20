@@ -1,0 +1,57 @@
+#service {
+	color: var(--secondary-color);
+	background: var(--primary-color);
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  overflow: hidden;
+  gap: 1.5rem;
+}
+.serviceTypo {
+	font-size: 3rem;
+	transform: transLateX(-7rem);
+	font-weight: 800;
+	font-style: italic;
+	text-transform: uppercase;
+	white-space: nowrap;
+	display: flex;
+	flex-direction: column;
+  align-items: start;
+  line-height: 2.7rem;
+}
+.outLineService {
+	-webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px;
+}
+
+.serviceStack {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: all .3s;
+}
+
+.serviceTechStack {
+	display: flex;
+	flex-direction: row;
+	gap: .5rem;
+	padding: .3rem 0;
+}
+
+.serviceTechStack span {
+	border-radius: 25px;
+	padding: 0 .5rem;
+	border: 2px solid var(--secondary-color);
+	transition: .5s;
+}
+.serviceTechStack span:hover {
+	background: var(--secondary-color);
+	color: var(--primary-color);
+	border-radius: 25px;
+	padding: .2rem .7rem;
+	border: 2px solid var(--secondary-color);
+}

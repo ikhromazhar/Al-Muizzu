@@ -1,0 +1,186 @@
+#work {
+	width: 100%;
+	background: var(--primary-color);
+	color: var(--secondary-color);
+	padding: 0.3rem 4rem;
+}
+.workDesign {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 1.5rem;
+}
+.workTypo {
+	display: flex;
+	flex-direction: column;
+	font-size: 5.5rem;
+	opacity: 25%;
+	line-height: 4.5rem;
+	font-weight: 800;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.ContainerWork {
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  transform: transLateY(-7rem);
+}
+.workText {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: .5rem;
+}
+.workNumber, .workTittle span:nth-child(1) {
+	font-size: .9rem;
+	font-weight: bold;
+}
+.workTittle span:nth-child(2){
+	font-size: .8rem;
+}
+
+.workTittle {
+  display: flex;
+  flex-direction: column;
+  line-height: .9rem;
+}
+.workMain {
+   display: flex;
+   flex-direction: column;
+   gap: .7rem;
+}
+
+.workImage {
+	width: 250px;
+	height: auto;
+}
+
+.workLink {
+	height: 40vh;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	width: 30%;
+}
+
+.workLinked {
+	width: 85%;
+	color: var(--secondary-color);
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--secondary-color);
+	text-decoration: none;
+	transition: all .5s;
+	padding: 0rem .3rem;
+}
+
+.workLinked:hover {
+	background: gainsboro;
+  color: var(--primary-color);
+	padding: .2rem .5rem;
+	transition: all .5s;
+}
+@media screen and (max-width: 992px) { 
+	.ContainerWork {
+	display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  transform: transLateY(-3rem);
+}
+.workLink {
+	height: 80vh;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	width: 40%;
+}
+
+.workLinked {
+	width: 100%;
+	color: var(--secondary-color);
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--secondary-color);
+	text-decoration: none;
+	transition: all .5s;
+	padding: 0rem .3rem;
+}
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 576px) {
+	.ContainerWork {
+  position: relative;
+	display: flex;
+  flex-direction: row;
+  right: 2rem;
+  gap: .5rem;
+  transform: transLateY(-4rem);
+  white-space: hidden;
+}
+	.workTypo {
+	display: flex;
+	flex-direction: column;
+	font-size: 3.8rem;
+	opacity: 25%;
+	line-height: 3.3rem;
+	font-weight: 800;
+	font-style: italic;
+	text-transform: uppercase;
+}
+  .workDesign span{
+	font-size: 2rem;
+	position: absolute;
+	left: 5rem;
+}
+  .workOpening {
+  	display: flex;
+  	justify-content: start;
+  	align-items: start;
+  }
+  .workTittle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 3rem;
+  height: 20vh;
+  line-height: .9rem;
+}
+
+  .workLink {
+  position: absolute;
+	height: 40vh;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	width: 100%;
+}
+  .workLinked {
+	width: 100%;
+	color: var(--secondary-color);
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid var(--secondary-color);
+	text-decoration: none;
+	transition: all .5s;
+	padding: 0rem .3rem;
+}
+
+.workLinked:hover {
+	background: gainsboro;
+  color: var(--primary-color);
+	padding: .2rem .5rem;
+	transition: all .5s;
+}
+}
+@media screen and (max-width: 350px) {
+
+}

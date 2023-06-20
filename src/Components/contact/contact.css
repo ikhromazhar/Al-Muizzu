@@ -1,0 +1,83 @@
+#contact {
+	width: 100%;
+	height: 40vh;
+	background: #0A0A0A;
+	color: var(--secondary-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contactText {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .5rem;
+  font-size: 1rem;
+	font-weight: 800;
+}
+.contactText img {
+	width: 30px;
+	height: 40px;
+	border-radius: 50px;
+}
+
+.contactLink {
+	display: flex;
+	gap: 1rem;
+	font-size: .7rem;
+}
+
+.contactLink a {
+	display: flex;
+	background: var(--primary-color);
+	color: var(--secondary-color);
+	padding: .3rem 1rem;
+	border-radius: 25px;
+	border: 1.5px solid var(--secondary-color);
+	transition: all 0.5s;
+	text-decoration: none;
+}
+.contactLink a:hover {
+	display: flex;
+	background: var(--secondary-color);
+	color: var(--primary-color);
+	padding: .5rem 1.2rem;
+	border-radius: 25px;
+	border: 1.5px solid var(--primary-color);
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
+.contactSosmed {
+	display: flex;
+	gap: .5rem;
+	padding: 2px 0;
+}
+
+.contactSosmed a {
+	color: var(--secondary-color);
+	font-size: .7rem;
+	text-decoration: none;
+}
+@media screen and (max-width: 992px) { 
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 576px) {
+  #contact {
+	width: 100%;
+	height: 31vh;
+	background: #0A0A0A;
+	color: var(--secondary-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+}
+@media screen and (max-width: 350px) {
+
+}
